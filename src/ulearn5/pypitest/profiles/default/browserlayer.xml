@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layers>
+  <layer
+      name="ulearn5.pypitest"
+      interface="ulearn5.pypitest.interfaces.IUlearn5PypitestLayer"
+      />
+</layers>

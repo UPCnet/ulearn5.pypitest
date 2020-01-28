@@ -1,0 +1,59 @@
+<configure
+  xmlns="http://namespaces.zope.org/zope"
+  xmlns:plone="http://namespaces.plone.org/plone"
+  xmlns:grok="http://namespaces.zope.org/grok"
+  xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+  xmlns:i18n="http://namespaces.zope.org/i18n"
+  xmlns:browser="http://namespaces.zope.org/browser"
+  i18n_domain="ulearn5.pypitest">
+
+  <i18n:registerTranslations directory="locales" />
+
+  <includeDependencies package="." />
+  <grok:grok package="." />
+
+  <include package=".browser" />
+
+  <!-- ++theme++ulearn5.pypitest -->
+  <plone:static
+    directory="theme"
+    type="theme"
+    name="ulearn5.pypitest"
+    />
+
+  <genericsetup:registerProfile
+    name="default"
+    title="ulearn5.pypitest"
+    directory="profiles/default"
+    description="Installs the ulearn5.pypitest add-on."
+    provides="Products.GenericSetup.interfaces.EXTENSION"
+    post_handler=".setuphandlers.post_install"
+    />
+
+  <genericsetup:registerProfile
+    name="uninstall"
+    title="ulearn5.pypitest (unistall)"
+    directory="profiles/uninstall"
+    description="Uninstalls the ulearn5.pypitest add-on."
+    provides="Products.GenericSetup.interfaces.EXTENSION"
+    post_handler=".setuphandlers.uninstall"
+    />
+
+  <utility
+    factory=".setuphandlers.HiddenProfiles"
+    name="ulearn5.pypitest-hiddenprofiles"
+    />
+
+  <browser:jbot
+    directory="templates"
+    layer=".interfaces.IUlearn5PypitestLayer"
+    />
+
+  <genericsetup:importStep
+    name="ulearn5.pypitest"
+    title="ulearn5.pypitest setupVarious"
+    description="Setup pypitest site theme"
+    handler="ulearn5.pypitest.setuphandlers.setupVarious"
+    />
+
+</configure>

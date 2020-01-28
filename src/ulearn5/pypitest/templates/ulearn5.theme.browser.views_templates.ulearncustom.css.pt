@@ -1,0 +1,16 @@
+/*Put here custom CSS for client customizations*/
+
+.template-login_form,
+.template-logged_out,
+.template-login_failed {
+    background: url(++theme++ulearn5.pypitest/assets/images/background-login.jpg) no-repeat center center fixed !important;
+    -webkit-background-size: cover!important;
+    -moz-background-size: cover!important;
+    -o-background-size: cover!important;
+    background-size: cover!important;
+}
+
+
+#image_login {
+    max-width: 30rem;
+}

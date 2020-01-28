@@ -1,0 +1,147 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Ulearn5Pypitest\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI +ZONE\n"
+"PO-Revision-Date: 2018-10-04 16:01+0100\n"
+"Last-Translator: \n"
+"Language-Team: Plone Team@UPCnet <plone.team@upcnet.es>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language-Code: ca\n"
+"Language-Name: Catalan\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: ulearn5.pypitest\n"
+"X-Generator: Poedit 1.5.4\n"
+"Language: ca\n"
+
+#: ../configure.zcml:31
+msgid "Installs the ulearn5.pypitest add-on."
+msgstr "Instal·la el complement ulearn5.pypitest."
+
+#: ../configure.zcml:40
+msgid "Uninstalls the ulearn5.pypitest add-on."
+msgstr "Desinstal·la el complement ulearn5.pypitest."
+
+#: ../indexers.py:50
+msgid "check_telefon"
+msgstr "Habilitar/Deshabilitar visualització del telèfon"
+
+#: ../indexers.py:51
+msgid "check_twitter_username"
+msgstr "Habilitar/Deshabilitar visualització del twitter"
+
+#: ../indexers.py:50
+msgid "check_ubicacio"
+msgstr "Habilitar/Deshabilitar visualització de la ubicació"
+
+#: ../indexers.py:49
+msgid "description"
+msgstr "Descripció"
+
+#: ../indexers.py:49
+msgid "email"
+msgstr "Adreça de correu"
+
+#: ../indexers.py:49
+msgid "fullname"
+msgstr "Nom complet"
+
+#. Default: "Contacte telefònic"
+#: ../userschema.py:59
+msgid "help_telefon"
+msgstr "Contacte telefònic"
+
+#. Default: "Fill in your Twitter username."
+#: ../userschema.py:33
+msgid "help_twitter"
+msgstr "Introdueix el teu nom d'usuari de Twitter"
+
+#. Default: "Equip, Àrea / Companyia / Departament"
+#: ../userschema.py:46
+msgid "help_ubicacio"
+msgstr "Equip, Àrea / Companyia / Departament"
+
+#: ../indexers.py:51
+msgid "home_page"
+msgstr "Pàgina d'inici"
+
+#. Default: "Telèfon"
+#: ../userschema.py:58
+msgid "label_telefon"
+msgstr "Telèfon"
+
+#. Default: "Twitter username"
+#: ../userschema.py:32
+msgid "label_twitter"
+msgstr "Twitter"
+
+#. Default: "Ubicació"
+#: ../userschema.py:45
+msgid "label_ubicacio"
+msgstr "Ubicació"
+
+#: ../indexers.py:49
+msgid "location"
+msgstr "Localització"
+
+#: ../indexers.py:52
+#: ../userschema.py:72
+msgid "private_policy"
+msgstr "Política de privacitat"
+
+#: ../indexers.py:50
+msgid "telefon"
+msgstr "Telèfon"
+
+#: ../indexers.py:52
+msgid "time_accepted_private_policy"
+msgstr "Dia en la que s'ha aceptat la política de privacitat"
+
+#: ../indexers.py:51
+msgid "twitter_username"
+msgstr "Twitter"
+
+#: ../indexers.py:50
+msgid "ubicacio"
+msgstr "Ubicació"
+
+#: ../configure.zcml:31
+msgid "ulearn5.pypitest"
+msgstr "ulearn5.pypitest"
+
+#: ../configure.zcml:40
+msgid "ulearn5.pypitest (unistall)"
+msgstr "Desinstal·la: ulearn5.pypitest"
+
+#: ../indexers.py:49
+msgid "username"
+msgstr "Usuari"
+
+#: ../indexers.py:52
+msgid "dni"
+msgstr "DNI"
+
+#. Default: "Indica el teu DNI."
+#: ../userschema.py:89
+msgid "help_dni"
+msgstr "El DNI és necessari per fer servir el sistema de nòmines"
+
+#. Default: "DNI"
+#: ../userschema.py:88
+msgid "label_dni"
+msgstr "DNI"
+
+#: ../indexers.py:53
+msgid "user_type"
+msgstr "Tipus d'empleat"
+
+#. Default: "Tipus empleat"
+#: ../userschema.py:81
+msgid "label_user_type"
+msgstr "Empleat amb accés al sistema de nòmines"
+
+#: ../userschema.py:82
+msgid "Si la opcio esta marcada, usuari te nomina"
+msgstr "La opció marcada indica que l'usuari té nòmines al sistema."

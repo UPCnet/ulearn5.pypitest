@@ -1,0 +1,147 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Ulearn5Pypitest\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI +ZONE\n"
+"PO-Revision-Date: 2018-10-04 16:00+0100\n"
+"Last-Translator: \n"
+"Language-Team: Plone Team@UPCnet <>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language-Code: en\n"
+"Language-Name: English\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: ulearn5.pypitest\n"
+"X-Generator: Poedit 1.5.4\n"
+"Language: en\n"
+
+#: ../configure.zcml:31
+msgid "Installs the ulearn5.pypitest add-on."
+msgstr "Installs the ulearn5.pypitest add-on."
+
+#: ../configure.zcml:40
+msgid "Uninstalls the ulearn5.pypitest add-on."
+msgstr "Uninstalls the ulearn5.pypitest add-on."
+
+#: ../indexers.py:50
+msgid "check_telefon"
+msgstr "Check telefon"
+
+#: ../indexers.py:51
+msgid "check_twitter_username"
+msgstr "Check twitter"
+
+#: ../indexers.py:50
+msgid "check_ubicacio"
+msgstr "Check ubicacio"
+
+#: ../indexers.py:49
+msgid "description"
+msgstr "Description"
+
+#: ../indexers.py:49
+msgid "email"
+msgstr "Email"
+
+#: ../indexers.py:49
+msgid "fullname"
+msgstr "Fullname"
+
+#. Default: "Contacte telefònic"
+#: ../userschema.py:59
+msgid "help_telefon"
+msgstr "Telephone contact"
+
+#. Default: "Fill in your Twitter username."
+#: ../userschema.py:33
+msgid "help_twitter"
+msgstr "Fill in your Twitter username."
+
+#. Default: "Equip, Àrea / Companyia / Departament"
+#: ../userschema.py:46
+msgid "help_ubicacio"
+msgstr "Computer area / Company / Department"
+
+#: ../indexers.py:51
+msgid "home_page"
+msgstr "Home page"
+
+#. Default: "Telèfon"
+#: ../userschema.py:58
+msgid "label_telefon"
+msgstr "Phone"
+
+#. Default: "Twitter username"
+#: ../userschema.py:32
+msgid "label_twitter"
+msgstr "Twitter username"
+
+#. Default: "Ubicació"
+#: ../userschema.py:45
+msgid "label_ubicacio"
+msgstr "Location"
+
+#: ../indexers.py:49
+msgid "location"
+msgstr "Location"
+
+#: ../indexers.py:52
+#: ../userschema.py:72
+msgid "private_policy"
+msgstr "Private policy"
+
+#: ../indexers.py:50
+msgid "telefon"
+msgstr "Telefon"
+
+#: ../indexers.py:52
+msgid "time_accepted_private_policy"
+msgstr "Day on which the privacy policy was accepted"
+
+#: ../indexers.py:51
+msgid "twitter_username"
+msgstr "Twitter"
+
+#: ../indexers.py:50
+msgid "ubicacio"
+msgstr "Ubication"
+
+#: ../configure.zcml:31
+msgid "ulearn5.pypitest"
+msgstr "ulearn5.pypitest"
+
+#: ../configure.zcml:40
+msgid "ulearn5.pypitest (unistall)"
+msgstr "ulearn5.pypitest (unistall)"
+
+#: ../indexers.py:49
+msgid "username"
+msgstr "Username"
+
+#: ../indexers.py:52
+msgid "dni"
+msgstr "DNI"
+
+#. Default: "Indica el teu DNI."
+#: ../userschema.py:89
+msgid "help_dni"
+msgstr "DNI is needed to make use of payments system."
+
+#. Default: "DNI"
+#: ../userschema.py:88
+msgid "label_dni"
+msgstr "DNI"
+
+#: ../indexers.py:53
+msgid "user_type"
+msgstr "Employee type"
+
+#. Default: "Tipus empleat"
+#: ../userschema.py:81
+msgid "label_user_type"
+msgstr "Employee with access to the payroll system"
+
+#: ../userschema.py:82
+msgid "Si la opcio esta marcada, usuari te nomina"
+msgstr "If the option is checked, the user has a paysheet"
